@@ -1,0 +1,43 @@
+.home-title{
+    font-size: 3.5rem;
+    margin-top: 5rem;
+    letter-spacing: 1rem;
+}
+
+.category-title{
+    margin-top: 3rem;
+    font-size: 1.5rem;
+}
+
+.category-list{
+  
+    margin-top: 3rem;
+    gap: 1rem;
+}
+
+.category-item{
+    border: 1px solid #2c3e50;
+    box-shadow: 4PX 4PX 10px rgba(0, 0, 0, 0.1);
+    padding: 20px 30px;
+    width:150PX;
+    border-radius: 10px;
+    text-align: center;
+    min-height: 100px;
+    min-width: 135PX;
+    transition: 0.5s;
+    
+}
+
+
+
+
+
+.category-item a{
+    color: #333;
+    text-decoration: none;
+    font-size: 1.5rem;
+}
+
+.category-item:hover{
+    box-shadow: 0PX 0PX;
+}

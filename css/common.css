@@ -1,11 +1,21 @@
 :root {
 
+
     --blue-gray: #ecf0f1;
 }
 
 #header{
     background-color: var(--blue-gray);
     padding: 1.5rem 0;
+}
+
+html {
+    box-sizing: border-box;
+
+}
+
+*, *::before, *::after {
+    box-sizing: inherit; //inherit the box-sizing property from the parent element
 }
 
 #header .header-wrapper .logo {
